@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class CycleText : MonoBehaviour
 {
     public Text facts;
-    public string[] funFacts;  // Srray om fun facts op te slaan
+    public string[] funFacts;  // Array om fun facts op te slaan
     public float changeInterval = 5f;  // Tijdsinterval (na hoeveel seconden verandert het funfact)
 
     private int currentFactIndex = 0; // Huidige index van feit
