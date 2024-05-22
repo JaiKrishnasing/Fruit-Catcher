@@ -112,22 +112,6 @@ public class LogicManager : MonoBehaviour
         SaveData("currency", currency);
     }
 
-    public void DestroyObjectsOnScreen()
-    {
-        GameObject[] objects = GameObject.FindGameObjectsWithTag("object");
-        GameObject[] dangers = GameObject.FindGameObjectsWithTag("danger");
-
-        foreach (GameObject obj in objects)
-        {
-            Destroy(obj);
-        }
-
-        foreach (GameObject danger in dangers)
-        {
-            Destroy(danger);
-        }
-    }
-
     private void HighScore()
     {
         if(score >= highScore)
